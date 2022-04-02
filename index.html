@@ -1,0 +1,215 @@
+
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo" style="font-family: 'Cookie', cursive;font-size: '80px';"><a href="#">Aakriti Negi.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Aakriti</div>
+        <div class="text-three">A Frontend Developer</div>
+      </div>
+      <div class="button">
+        <button id="bottom" onclick="window.scrollTo(0,document.body.scrollHeight);">Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="./idea.png" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <p>I am a web designer & full stack Web developer. I'm interested in all kinds of visual communication,but my major focus is on designing web, mobile & tablet interfaces. I also have sills in other fields like branding, icon design or web development.</p> <br>
+          <p>I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me reading books, cooking or listening to music.</p>
+          <div class="button">
+            <button class="resume"> <a href="" style="text-decoration: none;" >View Resume</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p style="color: #0E2431;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+          <!-- <div class="experience">
+            <div class="num">00</div>
+            <div class="exp">Years Of <br> Experience</div>
+          </div> -->
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">95%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Javascript</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Bootstrap</div>
+            <div class="per">70%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+
+        <div class="box"> <a href="https://aakriti-negi.github.io/Backtracking/" style="text-decoration: none;"> 
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Backtracking</div>
+          <p >It is a pure HTML page. This makes sure the understanding of the basic html tags like Heading, Paragraphs, Lists, Tables, Dic, etc. and their usage.</p>
+        </a>          
+        </div>
+
+        <div class="box">
+          <a href="https://aakriti-negi.github.io/To-Do-List-Mobile/">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <div class="topic">To Do List (Responsive)</div>
+            <p>Developed the application in a way that same website can work on multiple devices having different screen sizes in pixels. To achieve this I used Media Queries, one of the finest concept in CSS to build responsive applications.</p>
+          </div>
+          </a>
+          
+
+        <div class="box">
+          <a href="https://aakriti-negi.github.io/To_Do-List/index1.html">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">To Do List</div>
+            <p >This project contains the capabilities of HTML, CSS.Developed styled static application containing HTML files and CSS files. And understood the CSS properties like margin, display, box property, padding etc.</p>
+          </div>
+          </a>
+          
+
+        <div class="box">
+          <a href="https://aakriti-negi.github.io/Digital_Clock/">
+            <div class="icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="topic">Digital Clock Project</div>
+            <p >Getting introduced with the functions required for DOM manipulation. Also how to add dynamic HTML using JS and Date function of JS.</p>
+          </div>
+          </a>
+          
+
+        <div class="box">
+          <a href="https://aakriti-negi.github.io/ToDoList_JS/">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">To Do List (Complete)</div>
+            <p >Used multiple DOM functions which made a static application,A Dynamic application where you can do multiple operations on user input and change the look and view of page based on user input.</p>
+          </div>
+          </a>
+          
+
+        <div class="box">
+          <a href="https://github.com/aakriti-negi?tab=repositories">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Github Repositories</div>
+            <p >Navigate to see other short projects related to HTML, CSS & JS in my repository.</p>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Let's Connect</div>
+        <a href="mailto:aakritinegi40@gmail.com" style="color: #ff8882;">Send Email</a>
+        <p style="color: #0E2431;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+        <div class="button">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span><a href="#">Aakriti Negi</a> | © 2022 All Rights Reserved.</span>
+    </div>
+  </footer>
+
+   
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
